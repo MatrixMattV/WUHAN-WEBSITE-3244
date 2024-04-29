@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-jiang-jin-1066744667-20543264.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 0 16px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: aliceblue;
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin: 20px 0;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.main-content button {
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    letter-spacing: .5px;
+    background: yellow;
+    color: black;
+}
